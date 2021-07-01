@@ -4,3 +4,5 @@
 
 /.vs/SocialMediaV2/v15/Server/sqlite3
 /.vs/SocialMediaV2/DesignTimeBuild/.dtbcache
+/.vs/SocialMediaV2/SocialMedia.Api/obj/Debug/netcoreapp2.1
+/.vs/SocialMediaV2/SocialMedia.Api/obj/Debug/netcoreapp2.0
