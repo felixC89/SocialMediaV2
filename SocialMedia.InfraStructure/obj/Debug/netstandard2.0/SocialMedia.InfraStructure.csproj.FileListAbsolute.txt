@@ -1,0 +1,12 @@
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.InfraStructure\bin\Debug\netstandard2.0\SocialMedia.InfraStructure.deps.json
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.InfraStructure\bin\Debug\netstandard2.0\SocialMedia.InfraStructure.dll
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.InfraStructure\bin\Debug\netstandard2.0\SocialMedia.InfraStructure.pdb
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.InfraStructure\bin\Debug\netstandard2.0\SocialMedia.Core.dll
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.InfraStructure\bin\Debug\netstandard2.0\SocialMedia.Core.pdb
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.InfraStructure\obj\Debug\netstandard2.0\SocialMedia.InfraStructure.csprojAssemblyReference.cache
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.InfraStructure\obj\Debug\netstandard2.0\SocialMedia.InfraStructure.csproj.CoreCompileInputs.cache
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.InfraStructure\obj\Debug\netstandard2.0\SocialMedia.InfraStructure.AssemblyInfoInputs.cache
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.InfraStructure\obj\Debug\netstandard2.0\SocialMedia.InfraStructure.AssemblyInfo.cs
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.InfraStructure\obj\Debug\netstandard2.0\SocialMedia.InfraStructure.csproj.CopyComplete
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.InfraStructure\obj\Debug\netstandard2.0\SocialMedia.InfraStructure.dll
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.InfraStructure\obj\Debug\netstandard2.0\SocialMedia.InfraStructure.pdb
