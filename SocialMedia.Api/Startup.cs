@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
+using SocialMedia.Core.Interfaces;
+using SocialMedia.InfraStructure.Repositories;
 
 namespace SocialMedia.Api
 {
@@ -26,6 +21,11 @@ namespace SocialMedia.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            #region ############## Inyeccion de dependencias ##############
+            //Cada vez que se haga uso abstraccion (IPostRepository) se le va entregar una instacia de la implementacion (PostRepository o el repositorio que se tenga que usar)
+            services.AddTransient<IPostRepository, PostRepository>();
+            #endregion
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
