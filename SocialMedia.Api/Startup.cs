@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SocialMedia.Core.Interfaces;
+using SocialMedia.InfraStructure.Data;
 using SocialMedia.InfraStructure.Repositories;
 
 namespace SocialMedia.Api
@@ -21,6 +23,10 @@ namespace SocialMedia.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            #region ############## Inyeccion de dependencias de cadena de conexion Base de datos al contexto SocialMedia ##############
+            services.AddDbContext<SocialMediadbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("SocialMediaCS")));
+            #endregion
 
             #region ############## Inyeccion de dependencias ##############
             //Cada vez que se haga uso abstraccion (IPostRepository) se le va entregar una instacia de la implementacion (PostRepository o el repositorio que se tenga que usar)
