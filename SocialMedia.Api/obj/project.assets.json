@@ -4630,6 +4630,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
           "SocialMedia.Core": "1.0.0"
         },
         "compile": {
