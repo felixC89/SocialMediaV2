@@ -1,0 +1,14 @@
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.IntegrationTest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.IntegrationTest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.IntegrationTest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.IntegrationTest\bin\Debug\netcoreapp2.1\SocialMedia.IntegrationTest.deps.json
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.IntegrationTest\bin\Debug\netcoreapp2.1\SocialMedia.IntegrationTest.runtimeconfig.json
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.IntegrationTest\bin\Debug\netcoreapp2.1\SocialMedia.IntegrationTest.runtimeconfig.dev.json
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.IntegrationTest\bin\Debug\netcoreapp2.1\SocialMedia.IntegrationTest.dll
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.IntegrationTest\bin\Debug\netcoreapp2.1\SocialMedia.IntegrationTest.pdb
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.IntegrationTest\obj\Debug\netcoreapp2.1\SocialMedia.IntegrationTest.csprojAssemblyReference.cache
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.IntegrationTest\obj\Debug\netcoreapp2.1\SocialMedia.IntegrationTest.csproj.CoreCompileInputs.cache
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.IntegrationTest\obj\Debug\netcoreapp2.1\SocialMedia.IntegrationTest.AssemblyInfoInputs.cache
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.IntegrationTest\obj\Debug\netcoreapp2.1\SocialMedia.IntegrationTest.AssemblyInfo.cs
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.IntegrationTest\obj\Debug\netcoreapp2.1\SocialMedia.IntegrationTest.dll
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.IntegrationTest\obj\Debug\netcoreapp2.1\SocialMedia.IntegrationTest.pdb

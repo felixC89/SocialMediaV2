@@ -1,0 +1,14 @@
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.UnitTest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.UnitTest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.UnitTest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.UnitTest\bin\Debug\netcoreapp2.1\SocialMedia.UnitTest.deps.json
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.UnitTest\bin\Debug\netcoreapp2.1\SocialMedia.UnitTest.runtimeconfig.json
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.UnitTest\bin\Debug\netcoreapp2.1\SocialMedia.UnitTest.runtimeconfig.dev.json
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.UnitTest\bin\Debug\netcoreapp2.1\SocialMedia.UnitTest.dll
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.UnitTest\bin\Debug\netcoreapp2.1\SocialMedia.UnitTest.pdb
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.UnitTest\obj\Debug\netcoreapp2.1\SocialMedia.UnitTest.csprojAssemblyReference.cache
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.UnitTest\obj\Debug\netcoreapp2.1\SocialMedia.UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.UnitTest\obj\Debug\netcoreapp2.1\SocialMedia.UnitTest.AssemblyInfoInputs.cache
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.UnitTest\obj\Debug\netcoreapp2.1\SocialMedia.UnitTest.AssemblyInfo.cs
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.UnitTest\obj\Debug\netcoreapp2.1\SocialMedia.UnitTest.dll
+C:\Users\Sistemas\Documents\Visual Studio 2017\Projects\SocialMediaV2\SocialMedia.UnitTest\obj\Debug\netcoreapp2.1\SocialMedia.UnitTest.pdb
