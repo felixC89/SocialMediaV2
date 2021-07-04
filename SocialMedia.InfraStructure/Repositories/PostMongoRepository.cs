@@ -19,6 +19,7 @@ namespace SocialMedia.InfraStructure.Repositories
         {
             _contexto = contexto;
         }
+        
         #endregion
 
         public async Task<IEnumerable<Post>> GetPosts()
@@ -37,6 +38,11 @@ namespace SocialMedia.InfraStructure.Repositories
 
             //await Task.Delay(10);
             return Post;
+        }
+
+        public Task<Post> GetPost(int id)
+        {
+            throw new NotImplementedException();
         }
     }
 }
