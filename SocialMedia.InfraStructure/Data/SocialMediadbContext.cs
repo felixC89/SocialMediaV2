@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SocialMedia.Core.Entities;
+using SocialMedia.InfraStructure.Data.Configurations;
 
 namespace SocialMedia.InfraStructure.Data
 {
@@ -20,128 +21,9 @@ namespace SocialMedia.InfraStructure.Data
         
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Comment>(entity =>
-            {
-                entity.ToTable("Comentario");//Se indica manualmente que se dirija a la tabla de ese nombre en la db ya que en el codigo esta en ingles y en sql server esta en español.
-
-                entity.HasKey(e => e.CommentId);
-
-                entity.Property(e => e.CommentId)
-                    .HasColumnName("IdComentario")
-                    .ValueGeneratedNever();
-
-                entity.Property(e => e.PostId)
-                    .HasColumnName("IdPublicacion")
-                    .ValueGeneratedNever();
-
-                entity.Property(e => e.UserId)
-                    .HasColumnName("IdUsuario")
-                    .ValueGeneratedNever();
-
-                entity.Property(e => e.Description)
-                    .HasColumnName("Descripcion")
-                    .IsRequired()
-                    .HasMaxLength(500)
-                    .IsUnicode(false);
-
-                entity.Property(e => e.Date)
-                    .HasColumnName("Fecha")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.IsActive)
-                    .HasColumnName("Activo")
-                    .ValueGeneratedNever();
-
-                entity.HasOne(d => d.Post)
-                    .WithMany(p => p.Comments)
-                    .HasForeignKey(d => d.PostId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_Comentario_Publicacion");
-
-                entity.HasOne(d => d.User)
-                    .WithMany(p => p.Comment)
-                    .HasForeignKey(d => d.UserId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_Comentario_Usuario");
-            });
-
-            modelBuilder.Entity<Post>(entity =>
-            {
-
-                entity.ToTable("Publicacion");
-
-                entity.HasKey(e => e.PostId);
-
-                entity.Property(e => e.PostId)
-                    .HasColumnName("IdPublicacion")
-                    .ValueGeneratedNever();
-
-                entity.Property(e => e.UserId)
-                    .HasColumnName("IdUsuario")
-                    .ValueGeneratedNever();
-
-                entity.Property(e => e.Description)
-                .HasColumnName("Descripcion")
-                    .IsRequired()
-                    .HasMaxLength(1000)
-                    .IsUnicode(false);
-
-                entity.Property(e => e.Date)
-                    .HasColumnName("Fecha")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.Image)
-                    .HasColumnName("Imagen")
-                    .HasMaxLength(500)
-                    .IsUnicode(false);
-
-                entity.HasOne(d => d.User)
-                    .WithMany(p => p.Post)
-                    .HasForeignKey(d => d.UserId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_Publicacion_Usuario");
-            });
-
-            modelBuilder.Entity<User>(entity =>
-            {
-
-                entity.ToTable("Usuario");
-
-                entity.HasKey(e => e.UserId);
-
-                entity.Property(e => e.UserId)
-                   .HasColumnName("IdUsuario")
-                   .ValueGeneratedNever();
-
-                entity.Property(e => e.FirstName)
-                    .HasColumnName("Nombres")
-                    .IsRequired()
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
-
-                entity.Property(e => e.LastName)
-                    .HasColumnName("Apellidos")
-                    .IsRequired()
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
-
-                entity.Property(e => e.Email)
-                    .IsRequired()
-                    .HasMaxLength(30)
-                    .IsUnicode(false);
-
-                entity.Property(e => e.BirthDate)
-                    .HasColumnName("FechaNacimiento")
-                    .HasColumnType("date");
-                
-                entity.Property(e => e.Telephone)
-                    .HasColumnName("Telefono")
-                    .HasMaxLength(10)
-                    .IsUnicode(false);
-
-                entity.Property(e => e.IsActive)
-                    .HasColumnName("Activo");
-            });
+            modelBuilder.ApplyConfiguration(new CommentConfiguration());
+            modelBuilder.ApplyConfiguration(new PostConfiguration());
+            modelBuilder.ApplyConfiguration(new UserConfiguration());
         }
     }
 }
