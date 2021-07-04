@@ -20,19 +20,19 @@ namespace SocialMedia.InfraStructure.Repositories
         }
         #endregion
 
-        public async Task<IEnumerable<Publicacion>> GetPosts()
+        public async Task<IEnumerable<Post>> GetPosts()
         {
-            //var Post = Enumerable.Range(0, 10).Select(x => new Post
+            //var Posts = Enumerable.Range(0, 10).Select(x => new Posts
             //{
             //    PostId = x,
-            //    Description = $"Descripcion{x}",
+            //    Description = $"Description{x}",
             //    Date = DateTime.Now,
             //    Image = $"https://misapis.com/{x}",
             //    UserId = x * 2
 
             //});
 
-            var Post = await _contexto.Publicacion.ToListAsync();
+            var Post = await _contexto.Posts.ToListAsync();
 
             //await Task.Delay(10);
             return Post;
