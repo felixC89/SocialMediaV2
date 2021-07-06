@@ -10,18 +10,16 @@ namespace SocialMedia.InfraStructure.Data.Configurations
             
                 builder.ToTable("Publicacion");//Se indica manualmente que se dirija a la tabla de ese nombre en la db ya que en el codigo esta en ingles y en sql server esta en español.
 
-            builder.HasKey(e => e.PostId);
+                builder.HasKey(e => e.PostId);
 
                 builder.Property(e => e.PostId)
-                    .HasColumnName("IdPublicacion")
-                    .ValueGeneratedNever();
+                    .HasColumnName("IdPublicacion");
 
                 builder.Property(e => e.UserId)
-                    .HasColumnName("IdUsuario")
-                    .ValueGeneratedNever();
+                    .HasColumnName("IdUsuario");
 
                 builder.Property(e => e.Description)
-                .HasColumnName("Descripcion")
+                    .HasColumnName("Descripcion")
                     .IsRequired()
                     .HasMaxLength(1000)
                     .IsUnicode(false);

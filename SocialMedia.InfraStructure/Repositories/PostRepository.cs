@@ -44,5 +44,11 @@ namespace SocialMedia.InfraStructure.Repositories
 
             return Post;
         }
+
+        public async Task InsertPost(Post post)
+        {
+            _contexto.Posts.Add(post);
+            await _contexto.SaveChangesAsync();            
+        }
     }
 }

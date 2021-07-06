@@ -44,5 +44,10 @@ namespace SocialMedia.InfraStructure.Repositories
         {
             throw new NotImplementedException();
         }
+
+        public Task InsertPost(Post post)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
